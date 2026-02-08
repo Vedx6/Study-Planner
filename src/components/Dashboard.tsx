@@ -24,11 +24,11 @@ const Dashboard: React.FC = () => {
           <h1 className="text-xl lg:text-2xl font-bold mb-2">Welcome back, {studyProgressData.user.name}! 🎉</h1>
           <p className="text-blue-100 text-sm lg:text-base">Ready to continue your learning journey? You're doing amazing!</p>
         </div>
-        <img 
-          src="/white_circle_360x360.png" 
-          alt="Bolt Logo"
-          className="w-20 h-20 lg:w-[120px] lg:h-[120px] flex-shrink-0 self-center lg:self-auto"
-        />
+        <div className="w-20 h-20 lg:w-[120px] lg:h-[120px] flex-shrink-0 self-center lg:self-auto bg-white/20 rounded-full flex items-center justify-center">
+          <div className="w-12 h-12 lg:w-16 lg:h-16 bg-gradient-to-br from-yellow-300 to-orange-500 rounded-full flex items-center justify-center">
+            <span className="text-2xl lg:text-3xl">⚡</span>
+          </div>
+        </div>
       </div>
 
       {/* Stats Grid */}
