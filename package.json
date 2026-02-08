@@ -1,8 +1,8 @@
 {
-  "name": "studymaster",
+  "name": "study-planner",
   "private": true,
   "version": "1.0.0",
-  "description": "A modern study management platform built with TypeScript and Vite",
+  "description": "A modern study management application built with TypeScript and Vite",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -61,14 +61,14 @@
     "tailwindcss",
     "learning-management"
   ],
-  "author": "Krunal Valvi",
+  "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KrunalValvi/StudyMaster.git"
+    "url": "https://github.com/Vedx6/Study-Planner.git"
   },
   "bugs": {
-    "url": "https://github.com/KrunalValvi/StudyMaster/issues"
+    "url": "https://github.com/Vedx6/Study-Planner/issues"
   },
-  "homepage": "https://github.com/KrunalValvi/StudyMaster#readme"
+  "homepage": "https://github.com/Vedx6/Study-Planner#readme"
 }
