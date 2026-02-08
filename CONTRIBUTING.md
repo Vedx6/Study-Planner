@@ -1,6 +1,6 @@
-# Contributing to Study Planner
+# Contributing to StudyMaster
 
-Thank you for considering contributing to Study Planner! 🎉
+First off, thank you for considering contributing to StudyMaster! 🎉
 
 ## Code of Conduct
 
@@ -41,8 +41,8 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 ### Setup
 
 ```bash
-git clone https://github.com/Vedx6/Study-Planner.git
-cd Study-Planner
+git clone https://github.com/KrunalValvi/StudyMaster.git
+cd StudyMaster
 npm install
 npm run dev
 ```
@@ -92,9 +92,11 @@ npm run test:coverage
 ```
 src/
 ├── components/     # Reusable UI components
-├── contexts/      # React contexts
-├── data/          # Sample data
-└── styles/        # Styling files
+├── pages/         # Application pages
+├── lib/           # Core business logic
+├── types/         # TypeScript definitions
+├── styles/        # Styling files
+└── utils/         # Utility functions
 ```
 
 ## Questions?
